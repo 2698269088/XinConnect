@@ -1,0 +1,5 @@
+xinconnect:
+  description: "xinconnect.command.description"
+  usage: "xinconnect.command.usage"
+  aliases: ["xc", "xconnect"]
+  executor: "top.mcocet.command.XinConnectCommandExecutor"
