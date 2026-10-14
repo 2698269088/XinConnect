@@ -1,0 +1,2 @@
+# XinConnect
+基于规则链系统的XinBot通用元插件，为LanConnect的升级替代品
