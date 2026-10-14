@@ -215,7 +215,3 @@ src/main/resources/
 - **单阶段直连**：收到登录包即判定为游戏阶段；不适用于需要多阶段（Login→Game 分离）的特殊服务器。
 - **容器交互尽力而为**：`containerClick` 不跟踪真实 `stateId` / 背包内容，适用于服务端托管的登录/排队菜单；对严格校验 `stateId` 的原生容器可能被服务端拒绝。
 - `custom` 动作为预留扩展点，暂未执行。
-
-## 许可
-
-XinConnect 作为 xinbot 的插件运行，依赖库以 `provided` 作用域引入，不随产物分发。请遵循上游 xinbot 及其依赖（mcprotocollib 等）各自的许可证条款。
